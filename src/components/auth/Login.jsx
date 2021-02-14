@@ -17,7 +17,7 @@ const Login = () => {
                 <div className="log-reg-area sign">
                   <h2 className="log-title">Login</h2>
                   <p>
-                    Don’t use Winku Yet?{' '}
+                    Don’t use HelloSuperStars Yet?{' '}
                     <a href="#" title="">
                       Take the tour
                     </a>{' '}

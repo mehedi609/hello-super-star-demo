@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -9,9 +10,9 @@ const Header = () => {
           style={{ padding: '0px' }}
         >
           <div className="container-fluid pull-right">
-            <a className="navbar-brand" href="#">
+            <Link className="navbar-brand" to="/">
               <img src="images/logo-01.png" alt="" style={{ width: '90px' }} />
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"

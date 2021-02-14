@@ -1,21 +1,26 @@
 import React from 'react';
 
-const ViewStars = () => {
+const ViewStars = ({ history }) => {
   const super_stars = [
     {
       name: 'Sakib Al Hasan',
+      photo: 'sakib.png',
     },
     {
       name: 'Tamim Iqbal',
+      photo: 'tamim.png',
     },
     {
       name: 'Shafid Afridi',
+      photo: 'afridi.png',
     },
     {
       name: 'MS Dhoni',
+      photo: 'dhoni.png',
     },
     {
       name: 'Sourav Ganguly',
+      photo: 'ganguly.png',
     },
   ];
 
@@ -35,7 +40,7 @@ const ViewStars = () => {
                 <div className="card mb-4 box-shadow">
                   <img
                     className="card-img-top"
-                    src="images/demo-placeholder.png"
+                    src={`/images/category-images/sports-category-stars/${star.photo}`}
                     alt="Card image cap"
                   />
                   <div className="card-body text-center">
@@ -46,6 +51,19 @@ const ViewStars = () => {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="row">
+          <div className="col-12 mb-5" style={{ marginLeft: '45%' }}>
+            <button
+              className="btn btn-lg btn-outline-dark"
+              onClick={history.goBack}
+            >
+              Go Back
+            </button>
           </div>
         </div>
       </div>

@@ -1,19 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const SelectedCategory = () => {
+const SelectedCategory = ({ history }) => {
   const selected_categories = [
     {
       category_name: 'Football',
+      category_photo: 'football.png',
     },
     {
       category_name: 'Cricket',
+      category_photo: 'cricket.png',
     },
     {
       category_name: 'Tennis',
+      category_photo: 'tennis.png',
     },
     {
       category_name: 'Golf',
+      category_photo: 'golf.png',
     },
   ];
   return (
@@ -32,7 +36,7 @@ const SelectedCategory = () => {
                 <div className="card mb-4 box-shadow">
                   <img
                     className="card-img-top"
-                    src="images/demo-placeholder.png"
+                    src={`/images/category-images/sports-category-images/${category.category_photo}`}
                     alt="Card image cap"
                   />
                   <div className="card-body text-center">
@@ -45,6 +49,19 @@ const SelectedCategory = () => {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="row">
+          <div className="col-12 mb-5" style={{ marginLeft: '45%' }}>
+            <button
+              className="btn btn-lg btn-outline-dark"
+              onClick={history.goBack}
+            >
+              Go Back
+            </button>
           </div>
         </div>
       </div>
