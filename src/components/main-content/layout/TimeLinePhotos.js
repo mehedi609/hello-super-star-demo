@@ -8,7 +8,7 @@ const TimeLinePhotos = () => {
           <li>
             <a
               class="strip"
-              href="images/resources/comet-1.jpg"
+              href="images/resources/photo-22.jpg"
               title=""
               data-strip-group="mygroup"
               data-strip-group-options="loop: false"

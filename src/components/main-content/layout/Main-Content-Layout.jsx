@@ -5,6 +5,7 @@ import LeftSidebarMenu from './Left-Sidebar-Menu';
 import TimeLine from '../Time-Line';
 import TimeLineFriends from './TimeLineFriends';
 import TimeLinePhotos from './TimeLinePhotos';
+import TimeLineVideos from './TimeLineVideos';
 
 const MainContentLayout = () => {
   return (
@@ -26,6 +27,9 @@ const MainContentLayout = () => {
                   </Route>
                   <Route exact path="/timeline-photos">
                     <TimeLinePhotos />
+                  </Route>
+                  <Route exact path="/timeline-videos">
+                    <TimeLineVideos />
                   </Route>
                   {/*Right Sidebar*/}
                   <RightSidebarFriendList />
