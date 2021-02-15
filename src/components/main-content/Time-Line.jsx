@@ -8,7 +8,10 @@ const TimeLine = () => {
           <div className="central-meta new-pst item">
             <div className="new-postbox">
               <figure>
-                <img src="images/resources/admin2.jpg" alt="" />
+                <img
+                  src="/images/stars-images/sakib/sakib-profile-photo.jpg"
+                  alt=""
+                />
               </figure>
               <div className="newpst-input">
                 <form method="post">
@@ -53,12 +56,15 @@ const TimeLine = () => {
             <div className="user-post">
               <div className="friend-info">
                 <figure>
-                  <img src="images/resources/friend-avatar10.jpg" alt="" />
+                  <img
+                    src="/images/stars-images/sakib/sakib-profile-avatar.jpg"
+                    alt=""
+                  />
                 </figure>
                 <div className="friend-name">
                   <ins>
                     <a href="time-line.html" title="">
-                      Janice Griffith
+                      Sakib Al Hasan
                     </a>
                   </ins>
                   <span>published: june,2 2018 19:PM</span>
@@ -76,11 +82,14 @@ const TimeLine = () => {
                 <div className="post-meta">
                   <div className="linked-image align-left">
                     <a href="#" title="">
-                      <img src="images/resources/page1.jpg" alt="" />
+                      <img
+                        src="/images/stars-images/sakib/Shakib-al-hasan-wedding-pic-2.jpg"
+                        alt=""
+                      />
                     </a>
                   </div>
                   <div className="detail">
-                    <span>Love Maid - ChillGroves</span>
+                    <span>Sakib's Marriage</span>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur ipisicing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -205,18 +214,24 @@ const TimeLine = () => {
             <div className="user-post">
               <div className="friend-info">
                 <figure>
-                  <img src="images/resources/friend-avatar10.jpg" alt="" />
+                  <img
+                    src="/images/stars-images/sakib/sakib-profile-avatar.jpg"
+                    alt=""
+                  />
                 </figure>
                 <div className="friend-name">
                   <ins>
                     <a href="time-line.html" title="">
-                      Janice Griffith
+                      Sakib Al Hasan
                     </a>
                   </ins>
                   <span>published: june,2 2018 19:PM</span>
                 </div>
                 <div className="post-meta">
-                  <img src="images/resources/user-post.jpg" alt="" />
+                  <img
+                    src="/images/stars-images/sakib/Shakib-al-hasan-wedding-pic-1.jpg"
+                    alt=""
+                  />
                   <div className="we-video-info">
                     <ul>
                       <li>
@@ -481,12 +496,15 @@ const TimeLine = () => {
             <div className="user-post">
               <div className="friend-info">
                 <figure>
-                  <img src="images/resources/friend-avatar10.jpg" alt="" />
+                  <img
+                    src="/images/stars-images/sakib/sakib-profile-avatar.jpg"
+                    alt=""
+                  />
                 </figure>
                 <div className="friend-name">
                   <ins>
                     <a href="time-line.html" title="">
-                      Janice Griffith
+                      Sakib Al Hasan
                     </a>
                   </ins>
                   <span>published: june,2 2018 19:PM</span>

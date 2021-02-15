@@ -6,7 +6,7 @@ const BannerPhoto = () => {
       <section>
         <div className="feature-photo">
           <figure>
-            <img src="images/resources/timeline-1.jpg" alt="" />
+            <img src="/images/stars-images/sakib/sakib-banner-01.png" alt="" />
           </figure>
           <div className="add-btn">
             <span>1205 followers</span>
@@ -26,7 +26,10 @@ const BannerPhoto = () => {
               <div className="col-lg-2 col-sm-3">
                 <div className="user-avatar">
                   <figure>
-                    <img src="images/resources/user-avatar.jpg" alt="" />
+                    <img
+                      src="/images/stars-images/sakib/sakib-profile-photo.jpg"
+                      alt=""
+                    />
                     <form className="edit-phto">
                       <i className="fa fa-camera-retro"></i>
                       <label className="fileContainer">
@@ -41,8 +44,8 @@ const BannerPhoto = () => {
                 <div className="timeline-info">
                   <ul>
                     <li className="admin-name">
-                      <h5>Janice Griffith</h5>
-                      <span>Group Admin</span>
+                      <h5>Sakib Al Hasan</h5>
+                      {/*<span>Group Admin</span>*/}
                     </li>
                     <li>
                       <a

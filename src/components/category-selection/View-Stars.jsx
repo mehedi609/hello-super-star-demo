@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ViewStars = ({ history }) => {
   const super_stars = [
@@ -45,7 +46,7 @@ const ViewStars = ({ history }) => {
                   />
                   <div className="card-body text-center">
                     <h3 className="card-title">
-                      <a href="#!">{star.name}</a>
+                      <Link to="/time-line">{star.name}</Link>
                     </h3>
                   </div>
                 </div>
