@@ -2,22 +2,22 @@ import React from 'react';
 
 const TimeLineGroups = () => {
   return (
-    <div class="col-lg-6">
-      <div class="central-meta">
-        <div class="groups">
+    <div className="col-lg-6">
+      <div className="central-meta">
+        <div className="groups">
           <span>
-            <i class="fa fa-users"></i> joined Groups
+            <i className="fa fa-users"></i> joined Groups
           </span>
         </div>
-        <ul class="nearby-contct">
+        <ul className="nearby-contct">
           <li>
-            <div class="nearly-pepls">
+            <div className="nearly-pepls">
               <figure>
                 <a href="time-line.html" title="">
                   <img src="images/resources/group1.jpg" alt="" />
                 </a>
               </figure>
-              <div class="pepl-info">
+              <div className="pepl-info">
                 <h4>
                   <a href="time-line.html" title="">
                     funparty
@@ -25,20 +25,20 @@ const TimeLineGroups = () => {
                 </h4>
                 <span>public group</span>
                 <em>32k Members</em>
-                <a href="#" title="" class="add-butn" data-ripple="">
+                <a href="#" title="" className="add-butn" data-ripple="">
                   leave group
                 </a>
               </div>
             </div>
           </li>
           <li>
-            <div class="nearly-pepls">
+            <div className="nearly-pepls">
               <figure>
                 <a href="time-line.html" title="">
                   <img src="images/resources/group2.jpg" alt="" />
                 </a>
               </figure>
-              <div class="pepl-info">
+              <div className="pepl-info">
                 <h4>
                   <a href="time-line.html" title="">
                     ABC News
@@ -46,20 +46,20 @@ const TimeLineGroups = () => {
                 </h4>
                 <span>Private group</span>
                 <em>5M Members</em>
-                <a href="#" title="" class="add-butn" data-ripple="">
+                <a href="#" title="" className="add-butn" data-ripple="">
                   leave group
                 </a>
               </div>
             </div>
           </li>
           <li>
-            <div class="nearly-pepls">
+            <div className="nearly-pepls">
               <figure>
                 <a href="time-line.html" title="">
                   <img src="images/resources/group3.jpg" alt="" />
                 </a>
               </figure>
-              <div class="pepl-info">
+              <div className="pepl-info">
                 <h4>
                   <a href="time-line.html" title="">
                     SEO Zone
@@ -67,20 +67,20 @@ const TimeLineGroups = () => {
                 </h4>
                 <span>Public group</span>
                 <em>32k Members</em>
-                <a href="#" title="" class="add-butn" data-ripple="">
+                <a href="#" title="" className="add-butn" data-ripple="">
                   leave group
                 </a>
               </div>
             </div>
           </li>
           <li>
-            <div class="nearly-pepls">
+            <div className="nearly-pepls">
               <figure>
                 <a href="time-line.html" title="">
                   <img src="images/resources/group4.jpg" alt="" />
                 </a>
               </figure>
-              <div class="pepl-info">
+              <div className="pepl-info">
                 <h4>
                   <a href="time-line.html" title="">
                     Max Us
@@ -88,20 +88,20 @@ const TimeLineGroups = () => {
                 </h4>
                 <span>Public group</span>
                 <em> 756 Members</em>
-                <a href="#" title="" class="add-butn" data-ripple="">
+                <a href="#" title="" className="add-butn" data-ripple="">
                   leave group
                 </a>
               </div>
             </div>
           </li>
           <li>
-            <div class="nearly-pepls">
+            <div className="nearly-pepls">
               <figure>
                 <a href="time-line.html" title="">
                   <img src="images/resources/group5.jpg" alt="" />
                 </a>
               </figure>
-              <div class="pepl-info">
+              <div className="pepl-info">
                 <h4>
                   <a href="time-line.html" title="">
                     Banana Group
@@ -109,20 +109,20 @@ const TimeLineGroups = () => {
                 </h4>
                 <span>Friends Group</span>
                 <em>32k Members</em>
-                <a href="#" title="" class="add-butn" data-ripple="">
+                <a href="#" title="" className="add-butn" data-ripple="">
                   leave group
                 </a>
               </div>
             </div>
           </li>
           <li>
-            <div class="nearly-pepls">
+            <div className="nearly-pepls">
               <figure>
                 <a href="time-line.html" title="">
                   <img src="images/resources/group6.jpg" alt="" />
                 </a>
               </figure>
-              <div class="pepl-info">
+              <div className="pepl-info">
                 <h4>
                   <a href="time-line.html" title="">
                     Bad boys n Girls
@@ -130,20 +130,20 @@ const TimeLineGroups = () => {
                 </h4>
                 <span>Public group</span>
                 <em>32k Members</em>
-                <a href="#" title="" class="add-butn" data-ripple="">
+                <a href="#" title="" className="add-butn" data-ripple="">
                   leave group
                 </a>
               </div>
             </div>
           </li>
           <li>
-            <div class="nearly-pepls">
+            <div className="nearly-pepls">
               <figure>
                 <a href="time-line.html" title="">
                   <img src="images/resources/group7.jpg" alt="" />
                 </a>
               </figure>
-              <div class="pepl-info">
+              <div className="pepl-info">
                 <h4>
                   <a href="time-line.html" title="">
                     Bachelor's fun
@@ -151,20 +151,20 @@ const TimeLineGroups = () => {
                 </h4>
                 <span>Public Group</span>
                 <em>500 Members</em>
-                <a href="#" title="" class="add-butn" data-ripple="">
+                <a href="#" title="" className="add-butn" data-ripple="">
                   leave group
                 </a>
               </div>
             </div>
           </li>
           <li>
-            <div class="nearly-pepls">
+            <div className="nearly-pepls">
               <figure>
                 <a href="time-line.html" title="">
                   <img src="images/resources/group4.jpg" alt="" />
                 </a>
               </figure>
-              <div class="pepl-info">
+              <div className="pepl-info">
                 <h4>
                   <a href="time-line.html" title="">
                     Max Us
@@ -172,15 +172,15 @@ const TimeLineGroups = () => {
                 </h4>
                 <span>Public group</span>
                 <em> 756 Members</em>
-                <a href="#" title="" class="add-butn" data-ripple="">
+                <a href="#" title="" className="add-butn" data-ripple="">
                   leave group
                 </a>
               </div>
             </div>
           </li>
         </ul>
-        <div class="lodmore">
-          <button class="btn-view btn-load-more"></button>
+        <div className="lodmore">
+          <button className="btn-view btn-load-more"></button>
         </div>
       </div>
     </div>

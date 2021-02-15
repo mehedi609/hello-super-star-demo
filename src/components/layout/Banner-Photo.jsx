@@ -11,7 +11,7 @@ const BannerPhoto = () => {
           </figure>
           <div className="add-btn">
             <span>1205 followers</span>
-            <a href="#" title="" data-ripple="">
+            <a href="/time-line" title="" data-ripple="">
               Add Friend
             </a>
           </div>
@@ -51,12 +51,7 @@ const BannerPhoto = () => {
                       <Link to="/timeline-videos">Videos</Link>
                       <Link to="/timeline-friends">Friends</Link>
                       <Link to="/timeline-groups">Groups</Link>
-                      <a className="" href="about.html" title="" data-ripple="">
-                        about
-                      </a>
-                      <a className="" href="#" title="" data-ripple="">
-                        more
-                      </a>
+                      <Link to="/timeline-about">About</Link>
                     </li>
                   </ul>
                 </div>
