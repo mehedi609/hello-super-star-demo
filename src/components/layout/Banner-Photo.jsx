@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const BannerPhoto = () => {
   return (
@@ -45,14 +46,7 @@ const BannerPhoto = () => {
                       <span>Group Admin</span>
                     </li>
                     <li>
-                      <a
-                        className="active"
-                        href="time-line.html"
-                        title=""
-                        data-ripple=""
-                      >
-                        time line
-                      </a>
+                      <Link to="/time-line">Time Line</Link>
                       <a
                         className=""
                         href="timeline-photos.html"
@@ -69,14 +63,7 @@ const BannerPhoto = () => {
                       >
                         Videos
                       </a>
-                      <a
-                        className=""
-                        href="timeline-friends.html"
-                        title=""
-                        data-ripple=""
-                      >
-                        Friends
-                      </a>
+                      <Link to="/timeline-friends">Friends</Link>
                       <a
                         className=""
                         href="timeline-groups.html"
