@@ -2,12 +2,12 @@ import React from 'react';
 
 const TimeLinePhotos = () => {
   return (
-    <div class="col-lg-6">
-      <div class="central-meta">
-        <ul class="photos">
+    <div className="col-lg-6">
+      <div className="central-meta">
+        <ul className="photos">
           <li>
             <a
-              class="strip"
+              className="strip"
               href="images/resources/photo-22.jpg"
               title=""
               data-strip-group="mygroup"
@@ -18,7 +18,7 @@ const TimeLinePhotos = () => {
           </li>
           <li>
             <a
-              class="strip"
+              className="strip"
               href="images/resources/photo-33.jpg"
               title=""
               data-strip-group="mygroup"
@@ -29,7 +29,7 @@ const TimeLinePhotos = () => {
           </li>
           <li>
             <a
-              class="strip"
+              className="strip"
               href="images/resources/photo-44.jpg"
               title=""
               data-strip-group="mygroup"
@@ -40,7 +40,7 @@ const TimeLinePhotos = () => {
           </li>
           <li>
             <a
-              class="strip"
+              className="strip"
               href="images/resources/photo-55.jpg"
               title=""
               data-strip-group="mygroup"
@@ -52,7 +52,7 @@ const TimeLinePhotos = () => {
 
           <li>
             <a
-              class="strip"
+              className="strip"
               href="images/resources/photo-66.jpg"
               title=""
               data-strip-group="mygroup"
@@ -63,7 +63,7 @@ const TimeLinePhotos = () => {
           </li>
           <li>
             <a
-              class="strip"
+              className="strip"
               href="images/resources/photo-77.jpg"
               title=""
               data-strip-group="mygroup"
@@ -74,7 +74,7 @@ const TimeLinePhotos = () => {
           </li>
           <li>
             <a
-              class="strip"
+              className="strip"
               href="images/resources/photo-88.jpg"
               title=""
               data-strip-group="mygroup"
@@ -86,7 +86,7 @@ const TimeLinePhotos = () => {
 
           <li>
             <a
-              class="strip"
+              className="strip"
               href="images/resources/photo-99.jpg"
               title=""
               data-strip-group="mygroup"
@@ -97,7 +97,7 @@ const TimeLinePhotos = () => {
           </li>
           <li>
             <a
-              class="strip"
+              className="strip"
               href="images/resources/photo-101.jpg"
               title=""
               data-strip-group="mygroup"
@@ -108,7 +108,7 @@ const TimeLinePhotos = () => {
           </li>
           <li>
             <a
-              class="strip"
+              className="strip"
               href="images/resources/photo-101.jpg"
               title=""
               data-strip-group="mygroup"
@@ -119,7 +119,7 @@ const TimeLinePhotos = () => {
           </li>
           <li>
             <a
-              class="strip"
+              className="strip"
               href="images/resources/photo-22.jpg"
               title=""
               data-strip-group="mygroup"
@@ -130,7 +130,7 @@ const TimeLinePhotos = () => {
           </li>
           <li>
             <a
-              class="strip"
+              className="strip"
               href="images/resources/photo-33.jpg"
               title=""
               data-strip-group="mygroup"
@@ -141,7 +141,7 @@ const TimeLinePhotos = () => {
           </li>
           <li>
             <a
-              class="strip"
+              className="strip"
               href="images/resources/photo-99.jpg"
               title=""
               data-strip-group="mygroup"
@@ -152,7 +152,7 @@ const TimeLinePhotos = () => {
           </li>
           <li>
             <a
-              class="strip"
+              className="strip"
               href="images/resources/photo-66.jpg"
               title=""
               data-strip-group="mygroup"
@@ -163,7 +163,7 @@ const TimeLinePhotos = () => {
           </li>
           <li>
             <a
-              class="strip"
+              className="strip"
               href="images/resources/photo-66.jpg"
               title=""
               data-strip-group="mygroup"
@@ -173,8 +173,8 @@ const TimeLinePhotos = () => {
             </a>
           </li>
         </ul>
-        <div class="lodmore">
-          <button class="btn-view btn-load-more"></button>
+        <div className="lodmore">
+          <button className="btn-view btn-load-more"></button>
         </div>
       </div>
     </div>

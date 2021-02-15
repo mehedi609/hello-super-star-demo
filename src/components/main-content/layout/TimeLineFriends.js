@@ -3,29 +3,29 @@ import React from 'react';
 const TimeLineFriends = () => {
   return (
     <>
-      <div class="col-lg-6">
-        <div class="central-meta">
-          <div class="frnds">
-            <ul class="nav nav-tabs">
-              <li class="nav-item">
-                <a class="active" href="#frends" data-toggle="tab">
+      <div className="col-lg-6">
+        <div className="central-meta">
+          <div className="frnds">
+            <ul className="nav nav-tabs">
+              <li className="nav-item">
+                <a className="active" href="#frends" data-toggle="tab">
                   My Friends
                 </a>{' '}
                 <span>55</span>
               </li>
-              <li class="nav-item">
-                <a class="" href="#frends-req" data-toggle="tab">
+              <li className="nav-item">
+                <a className="" href="#frends-req" data-toggle="tab">
                   Friend Requests
                 </a>
                 <span>60</span>
               </li>
             </ul>
 
-            <div class="tab-content">
-              <div class="tab-pane active fade show" id="frends">
-                <ul class="nearby-contct">
+            <div className="tab-content">
+              <div className="tab-pane active fade show" id="frends">
+                <ul className="nearby-contct">
                   <li>
-                    <div class="nearly-pepls">
+                    <div className="nearly-pepls">
                       <figure>
                         <a href="time-line.html" title="">
                           <img
@@ -34,7 +34,7 @@ const TimeLineFriends = () => {
                           />
                         </a>
                       </figure>
-                      <div class="pepl-info">
+                      <div className="pepl-info">
                         <h4>
                           <a href="time-line.html" title="">
                             jhon kates
@@ -44,25 +44,30 @@ const TimeLineFriends = () => {
                         <a
                           href="#"
                           title=""
-                          class="add-butn more-action"
+                          className="add-butn more-action"
                           data-ripple=""
                         >
                           unfriend
                         </a>
-                        <a href="#" title="" class="add-butn" data-ripple="">
+                        <a
+                          href="#"
+                          title=""
+                          className="add-butn"
+                          data-ripple=""
+                        >
                           add friend
                         </a>
                       </div>
                     </div>
                   </li>
                   <li>
-                    <div class="nearly-pepls">
+                    <div className="nearly-pepls">
                       <figure>
                         <a href="time-line.html" title="">
                           <img src="images/resources/nearly1.jpg" alt="" />
                         </a>
                       </figure>
-                      <div class="pepl-info">
+                      <div className="pepl-info">
                         <h4>
                           <a href="time-line.html" title="">
                             sophia Gate
@@ -72,25 +77,30 @@ const TimeLineFriends = () => {
                         <a
                           href="#"
                           title=""
-                          class="add-butn more-action"
+                          className="add-butn more-action"
                           data-ripple=""
                         >
                           unfriend
                         </a>
-                        <a href="#" title="" class="add-butn" data-ripple="">
+                        <a
+                          href="#"
+                          title=""
+                          className="add-butn"
+                          data-ripple=""
+                        >
                           add friend
                         </a>
                       </div>
                     </div>
                   </li>
                   <li>
-                    <div class="nearly-pepls">
+                    <div className="nearly-pepls">
                       <figure>
                         <a href="time-line.html" title="">
                           <img src="images/resources/nearly2.jpg" alt="" />
                         </a>
                       </figure>
-                      <div class="pepl-info">
+                      <div className="pepl-info">
                         <h4>
                           <a href="time-line.html" title="">
                             sara grey
@@ -100,25 +110,30 @@ const TimeLineFriends = () => {
                         <a
                           href="#"
                           title=""
-                          class="add-butn more-action"
+                          className="add-butn more-action"
                           data-ripple=""
                         >
                           unfriend
                         </a>
-                        <a href="#" title="" class="add-butn" data-ripple="">
+                        <a
+                          href="#"
+                          title=""
+                          className="add-butn"
+                          data-ripple=""
+                        >
                           add friend
                         </a>
                       </div>
                     </div>
                   </li>
                   <li>
-                    <div class="nearly-pepls">
+                    <div className="nearly-pepls">
                       <figure>
                         <a href="time-line.html" title="">
                           <img src="images/resources/nearly3.jpg" alt="" />
                         </a>
                       </figure>
-                      <div class="pepl-info">
+                      <div className="pepl-info">
                         <h4>
                           <a href="time-line.html" title="">
                             Sexy cat
@@ -128,25 +143,30 @@ const TimeLineFriends = () => {
                         <a
                           href="#"
                           title=""
-                          class="add-butn more-action"
+                          className="add-butn more-action"
                           data-ripple=""
                         >
                           unfriend
                         </a>
-                        <a href="#" title="" class="add-butn" data-ripple="">
+                        <a
+                          href="#"
+                          title=""
+                          className="add-butn"
+                          data-ripple=""
+                        >
                           add friend
                         </a>
                       </div>
                     </div>
                   </li>
                   <li>
-                    <div class="nearly-pepls">
+                    <div className="nearly-pepls">
                       <figure>
                         <a href="time-line.html" title="">
                           <img src="images/resources/nearly4.jpg" alt="" />
                         </a>
                       </figure>
-                      <div class="pepl-info">
+                      <div className="pepl-info">
                         <h4>
                           <a href="time-line.html" title="">
                             Sara grey
@@ -156,25 +176,30 @@ const TimeLineFriends = () => {
                         <a
                           href="#"
                           title=""
-                          class="add-butn more-action"
+                          className="add-butn more-action"
                           data-ripple=""
                         >
                           unfriend
                         </a>
-                        <a href="#" title="" class="add-butn" data-ripple="">
+                        <a
+                          href="#"
+                          title=""
+                          className="add-butn"
+                          data-ripple=""
+                        >
                           add friend
                         </a>
                       </div>
                     </div>
                   </li>
                   <li>
-                    <div class="nearly-pepls">
+                    <div className="nearly-pepls">
                       <figure>
                         <a href="time-line.html" title="">
                           <img src="images/resources/nearly5.jpg" alt="" />
                         </a>
                       </figure>
-                      <div class="pepl-info">
+                      <div className="pepl-info">
                         <h4>
                           <a href="time-line.html" title="">
                             Amy watson
@@ -184,25 +209,30 @@ const TimeLineFriends = () => {
                         <a
                           href="#"
                           title=""
-                          class="add-butn more-action"
+                          className="add-butn more-action"
                           data-ripple=""
                         >
                           unfriend
                         </a>
-                        <a href="#" title="" class="add-butn" data-ripple="">
+                        <a
+                          href="#"
+                          title=""
+                          className="add-butn"
+                          data-ripple=""
+                        >
                           add friend
                         </a>
                       </div>
                     </div>
                   </li>
                   <li>
-                    <div class="nearly-pepls">
+                    <div className="nearly-pepls">
                       <figure>
                         <a href="time-line.html" title="">
                           <img src="images/resources/nearly6.jpg" alt="" />
                         </a>
                       </figure>
-                      <div class="pepl-info">
+                      <div className="pepl-info">
                         <h4>
                           <a href="time-line.html" title="">
                             caty lasbo
@@ -212,25 +242,30 @@ const TimeLineFriends = () => {
                         <a
                           href="#"
                           title=""
-                          class="add-butn more-action"
+                          className="add-butn more-action"
                           data-ripple=""
                         >
                           unfriend
                         </a>
-                        <a href="#" title="" class="add-butn" data-ripple="">
+                        <a
+                          href="#"
+                          title=""
+                          className="add-butn"
+                          data-ripple=""
+                        >
                           add friend
                         </a>
                       </div>
                     </div>
                   </li>
                   <li>
-                    <div class="nearly-pepls">
+                    <div className="nearly-pepls">
                       <figure>
                         <a href="time-line.html" title="">
                           <img src="images/resources/nearly2.jpg" alt="" />
                         </a>
                       </figure>
-                      <div class="pepl-info">
+                      <div className="pepl-info">
                         <h4>
                           <a href="time-line.html" title="">
                             Ema watson
@@ -240,32 +275,37 @@ const TimeLineFriends = () => {
                         <a
                           href="#"
                           title=""
-                          class="add-butn more-action"
+                          className="add-butn more-action"
                           data-ripple=""
                         >
                           unfriend
                         </a>
-                        <a href="#" title="" class="add-butn" data-ripple="">
+                        <a
+                          href="#"
+                          title=""
+                          className="add-butn"
+                          data-ripple=""
+                        >
                           add friend
                         </a>
                       </div>
                     </div>
                   </li>
                 </ul>
-                <div class="lodmore">
-                  <button class="btn-view btn-load-more"></button>
+                <div className="lodmore">
+                  <button className="btn-view btn-load-more"></button>
                 </div>
               </div>
-              <div class="tab-pane fade" id="frends-req">
-                <ul class="nearby-contct">
+              <div className="tab-pane fade" id="frends-req">
+                <ul className="nearby-contct">
                   <li>
-                    <div class="nearly-pepls">
+                    <div className="nearly-pepls">
                       <figure>
                         <a href="time-line.html" title="">
                           <img src="images/resources/nearly5.jpg" alt="" />
                         </a>
                       </figure>
-                      <div class="pepl-info">
+                      <div className="pepl-info">
                         <h4>
                           <a href="time-line.html" title="">
                             Amy watson
@@ -275,12 +315,17 @@ const TimeLineFriends = () => {
                         <a
                           href="#"
                           title=""
-                          class="add-butn more-action"
+                          className="add-butn more-action"
                           data-ripple=""
                         >
                           delete Request
                         </a>
-                        <a href="#" title="" class="add-butn" data-ripple="">
+                        <a
+                          href="#"
+                          title=""
+                          className="add-butn"
+                          data-ripple=""
+                        >
                           Confirm
                         </a>
                       </div>
@@ -288,13 +333,13 @@ const TimeLineFriends = () => {
                   </li>
 
                   <li>
-                    <div class="nearly-pepls">
+                    <div className="nearly-pepls">
                       <figure>
                         <a href="time-line.html" title="">
                           <img src="images/resources/nearly1.jpg" alt="" />
                         </a>
                       </figure>
-                      <div class="pepl-info">
+                      <div className="pepl-info">
                         <h4>
                           <a href="time-line.html" title="">
                             sophia Gate
@@ -304,25 +349,30 @@ const TimeLineFriends = () => {
                         <a
                           href="#"
                           title=""
-                          class="add-butn more-action"
+                          className="add-butn more-action"
                           data-ripple=""
                         >
                           delete Request
                         </a>
-                        <a href="#" title="" class="add-butn" data-ripple="">
+                        <a
+                          href="#"
+                          title=""
+                          className="add-butn"
+                          data-ripple=""
+                        >
                           Confirm
                         </a>
                       </div>
                     </div>
                   </li>
                   <li>
-                    <div class="nearly-pepls">
+                    <div className="nearly-pepls">
                       <figure>
                         <a href="time-line.html" title="">
                           <img src="images/resources/nearly6.jpg" alt="" />
                         </a>
                       </figure>
-                      <div class="pepl-info">
+                      <div className="pepl-info">
                         <h4>
                           <a href="time-line.html" title="">
                             caty lasbo
@@ -332,19 +382,24 @@ const TimeLineFriends = () => {
                         <a
                           href="#"
                           title=""
-                          class="add-butn more-action"
+                          className="add-butn more-action"
                           data-ripple=""
                         >
                           delete Request
                         </a>
-                        <a href="#" title="" class="add-butn" data-ripple="">
+                        <a
+                          href="#"
+                          title=""
+                          className="add-butn"
+                          data-ripple=""
+                        >
                           Confirm
                         </a>
                       </div>
                     </div>
                   </li>
                   <li>
-                    <div class="nearly-pepls">
+                    <div className="nearly-pepls">
                       <figure>
                         <a href="time-line.html" title="">
                           <img
@@ -353,7 +408,7 @@ const TimeLineFriends = () => {
                           />
                         </a>
                       </figure>
-                      <div class="pepl-info">
+                      <div className="pepl-info">
                         <h4>
                           <a href="time-line.html" title="">
                             jhon kates
@@ -363,25 +418,30 @@ const TimeLineFriends = () => {
                         <a
                           href="#"
                           title=""
-                          class="add-butn more-action"
+                          className="add-butn more-action"
                           data-ripple=""
                         >
                           delete Request
                         </a>
-                        <a href="#" title="" class="add-butn" data-ripple="">
+                        <a
+                          href="#"
+                          title=""
+                          className="add-butn"
+                          data-ripple=""
+                        >
                           Confirm
                         </a>
                       </div>
                     </div>
                   </li>
                   <li>
-                    <div class="nearly-pepls">
+                    <div className="nearly-pepls">
                       <figure>
                         <a href="time-line.html" title="">
                           <img src="images/resources/nearly2.jpg" alt="" />
                         </a>
                       </figure>
-                      <div class="pepl-info">
+                      <div className="pepl-info">
                         <h4>
                           <a href="time-line.html" title="">
                             sara grey
@@ -391,25 +451,30 @@ const TimeLineFriends = () => {
                         <a
                           href="#"
                           title=""
-                          class="add-butn more-action"
+                          className="add-butn more-action"
                           data-ripple=""
                         >
                           delete Request
                         </a>
-                        <a href="#" title="" class="add-butn" data-ripple="">
+                        <a
+                          href="#"
+                          title=""
+                          className="add-butn"
+                          data-ripple=""
+                        >
                           Confirm
                         </a>
                       </div>
                     </div>
                   </li>
                   <li>
-                    <div class="nearly-pepls">
+                    <div className="nearly-pepls">
                       <figure>
                         <a href="time-line.html" title="">
                           <img src="images/resources/nearly4.jpg" alt="" />
                         </a>
                       </figure>
-                      <div class="pepl-info">
+                      <div className="pepl-info">
                         <h4>
                           <a href="time-line.html" title="">
                             Sara grey
@@ -419,25 +484,30 @@ const TimeLineFriends = () => {
                         <a
                           href="#"
                           title=""
-                          class="add-butn more-action"
+                          className="add-butn more-action"
                           data-ripple=""
                         >
                           delete Request
                         </a>
-                        <a href="#" title="" class="add-butn" data-ripple="">
+                        <a
+                          href="#"
+                          title=""
+                          className="add-butn"
+                          data-ripple=""
+                        >
                           Confirm
                         </a>
                       </div>
                     </div>
                   </li>
                   <li>
-                    <div class="nearly-pepls">
+                    <div className="nearly-pepls">
                       <figure>
                         <a href="time-line.html" title="">
                           <img src="images/resources/nearly3.jpg" alt="" />
                         </a>
                       </figure>
-                      <div class="pepl-info">
+                      <div className="pepl-info">
                         <h4>
                           <a href="time-line.html" title="">
                             Sexy cat
@@ -447,19 +517,24 @@ const TimeLineFriends = () => {
                         <a
                           href="#"
                           title=""
-                          class="add-butn more-action"
+                          className="add-butn more-action"
                           data-ripple=""
                         >
                           delete Request
                         </a>
-                        <a href="#" title="" class="add-butn" data-ripple="">
+                        <a
+                          href="#"
+                          title=""
+                          className="add-butn"
+                          data-ripple=""
+                        >
                           Confirm
                         </a>
                       </div>
                     </div>
                   </li>
                   <li>
-                    <div class="nearly-pepls">
+                    <div className="nearly-pepls">
                       <figure>
                         <a href="time-line.html" title="">
                           <img
@@ -468,7 +543,7 @@ const TimeLineFriends = () => {
                           />
                         </a>
                       </figure>
-                      <div class="pepl-info">
+                      <div className="pepl-info">
                         <h4>
                           <a href="time-line.html" title="">
                             jhon kates
@@ -478,19 +553,24 @@ const TimeLineFriends = () => {
                         <a
                           href="#"
                           title=""
-                          class="add-butn more-action"
+                          className="add-butn more-action"
                           data-ripple=""
                         >
                           delete Request
                         </a>
-                        <a href="#" title="" class="add-butn" data-ripple="">
+                        <a
+                          href="#"
+                          title=""
+                          className="add-butn"
+                          data-ripple=""
+                        >
                           Confirm
                         </a>
                       </div>
                     </div>
                   </li>
                 </ul>
-                <button class="btn-view btn-load-more"></button>
+                <button className="btn-view btn-load-more"></button>
               </div>
             </div>
           </div>
