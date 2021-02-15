@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router';
+import { Route } from 'react-router-dom';
 import RightSidebarFriendList from './Right-Sidebar-FriendList';
 import LeftSidebarMenu from './Left-Sidebar-Menu';
 import TimeLine from '../Time-Line';
