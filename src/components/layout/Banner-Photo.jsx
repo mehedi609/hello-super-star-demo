@@ -47,14 +47,7 @@ const BannerPhoto = () => {
                     </li>
                     <li>
                       <Link to="/time-line">Time Line</Link>
-                      <a
-                        className=""
-                        href="timeline-photos.html"
-                        title=""
-                        data-ripple=""
-                      >
-                        Photos
-                      </a>
+                      <Link to="/timeline-photos">Photos</Link>
                       <a
                         className=""
                         href="timeline-videos.html"
