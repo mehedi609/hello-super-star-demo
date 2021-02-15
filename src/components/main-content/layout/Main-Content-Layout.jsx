@@ -3,7 +3,11 @@ import { Route } from 'react-router';
 import RightSidebarFriendList from './Right-Sidebar-FriendList';
 import LeftSidebarMenu from './Left-Sidebar-Menu';
 import TimeLine from '../Time-Line';
-import PrivateRoute from '../../helpers/PrivateRoute';
+import TimeLineFriends from './TimeLineFriends';
+import TimeLinePhotos from './TimeLinePhotos';
+import TimeLineVideos from './TimeLineVideos';
+import TimeLineGroups from './TimeLineGroups';
+import TimeLineAbout from './TimeLineAbout';
 
 const MainContentLayout = () => {
   return (
@@ -19,6 +23,21 @@ const MainContentLayout = () => {
                   {/*Main Content*/}
                   <Route exact path="/time-line">
                     <TimeLine />
+                  </Route>
+                  <Route exact path="/timeline-friends">
+                    <TimeLineFriends />
+                  </Route>
+                  <Route exact path="/timeline-photos">
+                    <TimeLinePhotos />
+                  </Route>
+                  <Route exact path="/timeline-videos">
+                    <TimeLineVideos />
+                  </Route>
+                  <Route exact path="/timeline-groups">
+                    <TimeLineGroups />
+                  </Route>
+                  <Route exact path="/timeline-about">
+                    <TimeLineAbout />
                   </Route>
                   {/*Right Sidebar*/}
                   <RightSidebarFriendList />

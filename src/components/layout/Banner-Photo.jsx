@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const BannerPhoto = () => {
   return (
@@ -10,7 +11,7 @@ const BannerPhoto = () => {
           </figure>
           <div className="add-btn">
             <span>1205 followers</span>
-            <a href="#" title="" data-ripple="">
+            <a href="/time-line" title="" data-ripple="">
               Add Friend
             </a>
           </div>
@@ -48,52 +49,12 @@ const BannerPhoto = () => {
                       {/*<span>Group Admin</span>*/}
                     </li>
                     <li>
-                      <a
-                        className="active"
-                        href="time-line.html"
-                        title=""
-                        data-ripple=""
-                      >
-                        time line
-                      </a>
-                      <a
-                        className=""
-                        href="timeline-photos.html"
-                        title=""
-                        data-ripple=""
-                      >
-                        Photos
-                      </a>
-                      <a
-                        className=""
-                        href="timeline-videos.html"
-                        title=""
-                        data-ripple=""
-                      >
-                        Videos
-                      </a>
-                      <a
-                        className=""
-                        href="timeline-friends.html"
-                        title=""
-                        data-ripple=""
-                      >
-                        Friends
-                      </a>
-                      <a
-                        className=""
-                        href="timeline-groups.html"
-                        title=""
-                        data-ripple=""
-                      >
-                        Groups
-                      </a>
-                      <a className="" href="about.html" title="" data-ripple="">
-                        about
-                      </a>
-                      <a className="" href="#" title="" data-ripple="">
-                        more
-                      </a>
+                      <Link to="/time-line">Time Line</Link>
+                      <Link to="/timeline-photos">Photos</Link>
+                      <Link to="/timeline-videos">Videos</Link>
+                      <Link to="/timeline-friends">Friends</Link>
+                      <Link to="/timeline-groups">Groups</Link>
+                      <Link to="/timeline-about">About</Link>
                     </li>
                   </ul>
                 </div>
