@@ -50,14 +50,7 @@ const BannerPhoto = () => {
                       <Link to="/timeline-photos">Photos</Link>
                       <Link to="/timeline-videos">Videos</Link>
                       <Link to="/timeline-friends">Friends</Link>
-                      <a
-                        className=""
-                        href="timeline-groups.html"
-                        title=""
-                        data-ripple=""
-                      >
-                        Groups
-                      </a>
+                      <Link to="/timeline-groups">Groups</Link>
                       <a className="" href="about.html" title="" data-ripple="">
                         about
                       </a>
