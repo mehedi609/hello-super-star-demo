@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const DesireCategory = ({ history }) => {
+  const choices = localStorage.getItem('choices').split(',');
+
   const categories = [
     {
       category_name: 'Film Star',
@@ -47,6 +49,10 @@ const DesireCategory = ({ history }) => {
       category_name: 'Social',
       category_photo: 'social.png',
     },
+    {
+      category_name: 'Models',
+      category_photo: 'model.png',
+    },
   ];
   return (
     <>
@@ -59,24 +65,26 @@ const DesireCategory = ({ history }) => {
       <div className="album py-2 bg-light">
         <div className="container">
           <div className="row">
-            {categories.map((category) => (
-              <div className="col-md-4">
-                <div className="card mb-4 box-shadow">
-                  <img
-                    className="card-img-top"
-                    src={`images/category-images/${category.category_photo}`}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body text-center">
-                    <h3 className="card-title">
-                      <Link to="/selected-category">
-                        {category.category_name}
-                      </Link>
-                    </h3>
+            {categories
+              .filter((el) => choices.includes(el.category_name))
+              .map((category) => (
+                <div className="col-md-4">
+                  <div className="card mb-4 box-shadow">
+                    <img
+                      className="card-img-top"
+                      src={`images/category-images/${category.category_photo}`}
+                      alt="Card image cap"
+                    />
+                    <div className="card-body text-center">
+                      <h3 className="card-title">
+                        <Link to="/selected-category">
+                          {category.category_name}
+                        </Link>
+                      </h3>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
           </div>
         </div>
       </div>
