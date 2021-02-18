@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import RightSidebarFriendList from './Right-Sidebar-FriendList';
 import LeftSidebarMenu from './Left-Sidebar-Menu';
 import TimeLine from '../Time-Line';
@@ -8,6 +8,7 @@ import TimeLinePhotos from '../Time-Line-Photos';
 import TimeLineVideos from '../Time-Line-Videos';
 import TimeLineGroups from '../Time-Line-Groups';
 import TimeLineAbout from '../Time-Line-About';
+import Input from '../../user/layout/Input';
 
 const MainContentLayout = () => {
   return (
@@ -21,24 +22,29 @@ const MainContentLayout = () => {
                   {/*left sidebar*/}
                   <LeftSidebarMenu />
                   {/*Main Content*/}
-                  <Route exact path="/time-line">
-                    <TimeLine />
-                  </Route>
-                  <Route exact path="/timeline-friends">
-                    <TimeLineFriends />
-                  </Route>
-                  <Route exact path="/timeline-photos">
-                    <TimeLinePhotos />
-                  </Route>
-                  <Route exact path="/timeline-videos">
-                    <TimeLineVideos />
-                  </Route>
-                  <Route exact path="/timeline-groups">
-                    <TimeLineGroups />
-                  </Route>
-                  <Route exact path="/timeline-about">
-                    <TimeLineAbout />
-                  </Route>
+                  <Switch>
+                    <Route exact path="/time-line">
+                      <TimeLine />
+                    </Route>
+                    <Route exact path="/timeline-friends">
+                      <TimeLineFriends />
+                    </Route>
+                    <Route exact path="/timeline-photos">
+                      <TimeLinePhotos />
+                    </Route>
+                    <Route exact path="/timeline-videos">
+                      <TimeLineVideos />
+                    </Route>
+                    <Route exact path="/timeline-groups">
+                      <TimeLineGroups />
+                    </Route>
+                    <Route exact path="/timeline-about">
+                      <TimeLineAbout />
+                    </Route>
+                    <Route exact path="/user-upload">
+                      <Input />
+                    </Route>
+                  </Switch>
                   {/*Right Sidebar*/}
                   <RightSidebarFriendList />
                 </div>

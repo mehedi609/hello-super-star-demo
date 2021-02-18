@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const LeftSidebarMenu = () => {
   return (
@@ -58,9 +59,7 @@ const LeftSidebarMenu = () => {
               </li>
               <li>
                 <i className="ti-share"></i>
-                <a href="people-nearby.html" title="">
-                  People Nearby
-                </a>
+                <Link to="/user/upload">Interact With SuperStars⭐</Link>
               </li>
               <li>
                 <i className="fa fa-bar-chart-o"></i>

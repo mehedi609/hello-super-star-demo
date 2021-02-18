@@ -15,6 +15,12 @@ import ViewStars from './components/category-selection/View-Stars';
 import TimeLine from './components/main-content/Time-Line';
 import CategorySelectionRoutes from './components/category-selection/Category-Selection-Routes';
 
+import UserResponsiveHeader from './components/user/layout/Responsive-Header';
+import UserTopBar from './components/user/layout/TopBar';
+import UserMainContentLayout from './components/user/layout/Main-Content-Layout';
+import UserBannerPhoto from './components/user/layout/Banner-Photo';
+import Input from './components/user/layout/Input';
+
 function App() {
   return (
     <>
@@ -40,6 +46,23 @@ function App() {
           exact
           path="/view-super-stars"
           component={ViewStars}
+        />
+
+        <Route
+          path={'/(user)/(.+?)'}
+          exact
+          render={() => (
+            <>
+              <div className="theme-layout">
+                <UserResponsiveHeader />
+                <UserBannerPhoto />
+                {/*<Route exact path="/time-line">
+                  <TimeLine />
+                </Route>*/}
+                <UserMainContentLayout />
+              </div>
+            </>
+          )}
         />
 
         <Route

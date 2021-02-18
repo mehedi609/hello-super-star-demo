@@ -1,7 +1,12 @@
 import React from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, Route, useRouteMatch } from 'react-router-dom';
+import LeftSidebarMenu from '../../main-content/layout/Left-Sidebar-Menu';
+import RightSidebarFriendList from '../../main-content/layout/Right-Sidebar-FriendList';
+import TimeLineFriends from '../../main-content/Time-Line-Friends';
 
-const BannerPhoto = () => {
+const BannerPhoto = (props) => {
+  const match = useRouteMatch();
+  console.log(props.pathName);
   return (
     <>
       <section>
@@ -49,12 +54,12 @@ const BannerPhoto = () => {
                       {/*<span>Group Admin</span>*/}
                     </li>
                     <li>
-                      <Link to="/time-line">Time Line</Link>
-                      <Link to="/timeline-photos">Photos</Link>
-                      <Link to="/timeline-videos">Videos</Link>
-                      <Link to="/timeline-friends">Friends</Link>
-                      <Link to="/timeline-groups">Groups</Link>
-                      <Link to="/timeline-about">About</Link>
+                      <Link to="user/time-line">Time Line</Link>
+                      <Link to="user/timeline-photos">Photos</Link>
+                      <Link to="user/timeline-videos">Videos</Link>
+                      <Link to="user/timeline-friends">Friends</Link>
+                      <Link to="user/timeline-groups">Groups</Link>
+                      <Link to={`${match.url}/upload`}>Upload</Link>
                     </li>
                   </ul>
                 </div>
