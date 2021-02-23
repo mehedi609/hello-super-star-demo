@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
 const BannerPhoto = () => {
+  const [name, SetName] = useState('sakkib');
   return (
     <>
       <section>
@@ -49,12 +50,12 @@ const BannerPhoto = () => {
                       {/*<span>Group Admin</span>*/}
                     </li>
                     <li>
-                      <Link to="/time-line">Time Line</Link>
-                      <Link to="/timeline-photos">Photos</Link>
-                      <Link to="/timeline-videos">Videos</Link>
-                      <Link to="/timeline-friends">Friends</Link>
-                      <Link to="/timeline-groups">Groups</Link>
-                      <Link to="/timeline-about">About</Link>
+                      <Link to="/time-line/saakib">Time Line</Link>
+                      <Link to="/timeline-photos/saakib">Photos</Link>
+                      <Link to="/timeline-videos/saakib">Videos</Link>
+                      <Link to="/timeline-friends/saakib">Friends</Link>
+                      <Link to="/timeline-groups/saakib">Groups</Link>
+                      <Link to="/timeline-about/saakib">About</Link>
                     </li>
                   </ul>
                 </div>

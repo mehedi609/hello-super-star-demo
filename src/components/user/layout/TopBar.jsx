@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const TopBar = () => {
   return (
@@ -397,9 +398,9 @@ const TopBar = () => {
               <a href="#" title="">
                 <span className="status f-off"></span>offline
               </a>
-              <a href="#" title="">
+              <Link to="/user">
                 <i className="ti-user"></i> view profile
-              </a>
+              </Link>
               <a href="#" title="">
                 <i className="ti-pencil-alt"></i>edit profile
               </a>

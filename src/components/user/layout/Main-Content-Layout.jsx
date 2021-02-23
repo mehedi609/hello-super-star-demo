@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, useRouteMatch } from 'react-router-dom';
+import { Route, Switch, useRouteMatch } from 'react-router-dom';
 import RightSidebarFriendList from '../../main-content/layout/Right-Sidebar-FriendList';
 import LeftSidebarMenu from '../../main-content/layout/Left-Sidebar-Menu';
 import TimeLine from '../../main-content/Time-Line';
@@ -10,9 +10,11 @@ import TimeLineGroups from '../../main-content/Time-Line-Groups';
 import TimeLineAbout from '../../main-content/Time-Line-About';
 
 import Input from './Input';
+import Achievement from './Achievement';
 
 const MainContentLayout = () => {
-  const match = useRouteMatch();
+  const { path } = useRouteMatch();
+  console.log(path);
 
   return (
     <>
@@ -25,9 +27,14 @@ const MainContentLayout = () => {
                   {/*left sidebar*/}
                   <LeftSidebarMenu />
                   {/*Main Content*/}
-                  <Route path={`/user/upload`} exact>
-                    <Input />
-                  </Route>
+                  <Switch>
+                    <Route path="user/upload">
+                      <Input />
+                    </Route>
+                    <Route path={`/user/Achievement`}>
+                      <Achievement />
+                    </Route>
+                  </Switch>
                   {/*Right Sidebar*/}
                   <RightSidebarFriendList />
                 </div>

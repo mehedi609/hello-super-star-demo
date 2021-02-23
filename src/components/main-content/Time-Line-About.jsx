@@ -2,7 +2,7 @@ import React from 'react';
 
 const TimeLineAbout = () => {
   return (
-    <div className="col-lg-6">
+    <div className="col-lg-9">
       <div className="central-meta">
         <div className="about">
           <div className="personal">

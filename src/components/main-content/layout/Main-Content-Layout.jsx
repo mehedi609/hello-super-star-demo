@@ -17,32 +17,29 @@ const MainContentLayout = () => {
         <div className="gap gray-bg">
           <div className="container">
             <div className="row">
-              <div className="col-lg-12">
+              <div className="col-lg-12 m-auto">
                 <div className="row merged20" id="page-contents">
                   {/*left sidebar*/}
-                  <LeftSidebarMenu />
+
                   {/*Main Content*/}
                   <Switch>
-                    <Route exact path="/time-line">
+                    <Route exact path="/time-line/saakib">
                       <TimeLine />
                     </Route>
-                    <Route exact path="/timeline-friends">
+                    <Route exact path="/timeline-friends/saakib">
                       <TimeLineFriends />
                     </Route>
-                    <Route exact path="/timeline-photos">
+                    <Route exact path="/timeline-photos/saakib">
                       <TimeLinePhotos />
                     </Route>
-                    <Route exact path="/timeline-videos">
+                    <Route exact path="/timeline-videos/saakib">
                       <TimeLineVideos />
                     </Route>
-                    <Route exact path="/timeline-groups">
+                    <Route exact path="/timeline-groups/saakib">
                       <TimeLineGroups />
                     </Route>
-                    <Route exact path="/timeline-about">
+                    <Route exact path="/timeline-about/saakib">
                       <TimeLineAbout />
-                    </Route>
-                    <Route exact path="/user-upload">
-                      <Input />
                     </Route>
                   </Switch>
                   {/*Right Sidebar*/}

@@ -46,7 +46,7 @@ const ViewStars = ({ history }) => {
                   />
                   <div className="card-body text-center">
                     <h3 className="card-title">
-                      <Link to="/time-line">{star.name}</Link>
+                      <Link to="/time-line/saakib">{star.name}</Link>
                     </h3>
                   </div>
                 </div>

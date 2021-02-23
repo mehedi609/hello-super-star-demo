@@ -3,7 +3,7 @@ import React from 'react';
 const TimeLine = () => {
   return (
     <>
-      <div className="col-lg-6">
+      <div className="col-lg-9">
         <div className="loadMore">
           <div className="central-meta new-pst item">
             <div className="new-postbox">

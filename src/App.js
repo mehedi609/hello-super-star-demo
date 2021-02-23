@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Login from './components/auth/Login';
@@ -22,6 +22,14 @@ import UserBannerPhoto from './components/user/layout/Banner-Photo';
 import Input from './components/user/layout/Input';
 
 function App() {
+  const p = (
+    <>
+      <ResponsiveHeader />
+      <TopBar />
+      <BannerPhoto />
+    </>
+  );
+
   return (
     <>
       <Switch>
@@ -49,13 +57,11 @@ function App() {
         />
 
         <Route
-          path={'/(user)/(.+?)'}
-          exact
+          path={'/user(/.+)?'}
           render={() => (
             <>
               <div className="theme-layout">
-                <UserResponsiveHeader />
-                <UserBannerPhoto />
+                {p}
                 {/*<Route exact path="/time-line">
                   <TimeLine />
                 </Route>*/}
@@ -70,9 +76,7 @@ function App() {
           render={() => (
             <>
               <div className="theme-layout">
-                <ResponsiveHeader />
-                <TopBar />
-                <BannerPhoto />
+                {p}
                 {/*<Route exact path="/time-line">
                   <TimeLine />
                 </Route>*/}

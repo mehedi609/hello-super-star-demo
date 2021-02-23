@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const TopBar = () => {
+  useEffect(() => {
+    if (window && window.onClinck) {
+      window.onClinck();
+    }
+  }, []);
   return (
     <>
       <div className="topbar stick" style={{ height: '75px' }}>
         <div className="logo">
           <a title="" href="newsfeed.html">
-            <img src="images/logo-01.png" alt="" style={{ width: '75px' }} />
+            <img src="/images/logo-01.png" alt="" style={{ width: '75px' }} />
           </a>
         </div>
 
@@ -385,7 +391,7 @@ const TopBar = () => {
           </ul>
 
           <div className="user-img">
-            <img src="images/resources/admin.jpg" alt="" />
+            <img src="/images/resources/admin.jpg" alt="" />
             <span className="status f-online"></span>
             <div className="user-setting">
               <a href="#" title="">
@@ -397,9 +403,9 @@ const TopBar = () => {
               <a href="#" title="">
                 <span className="status f-off"></span>offline
               </a>
-              <a href="#" title="">
+              <Link to="/user">
                 <i className="ti-user"></i> view profile
-              </a>
+              </Link>
               <a href="#" title="">
                 <i className="ti-pencil-alt"></i>edit profile
               </a>
@@ -414,7 +420,7 @@ const TopBar = () => {
               </a>
             </div>
           </div>
-          {/*<span className="ti-menu main-menu" data-ripple=""></span>*/}
+          {/* <span className="ti-menu main-menu" data-ripple=""></span> */}
         </div>
       </div>
     </>

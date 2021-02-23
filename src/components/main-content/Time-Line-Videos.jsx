@@ -2,7 +2,7 @@ import React from 'react';
 
 const TimeLineVideos = () => {
   return (
-    <div className="col-lg-6">
+    <div className="col-lg-9">
       <div className="central-meta">
         <ul className="photos">
           <li>

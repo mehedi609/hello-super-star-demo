@@ -58,14 +58,10 @@ const LeftSidebarMenu = () => {
                 </a>
               </li>
               <li>
-                <i className="ti-share"></i>
-                <Link to="/user/upload">Interact With SuperStars⭐</Link>
+                <Link to="/user/upload">⭐ Interact With SuperStars</Link>
               </li>
               <li>
-                <i className="fa fa-bar-chart-o"></i>
-                <a href="insights.html" title="">
-                  insights
-                </a>
+                <Link to="/user/achievement">🎯 Achievement</Link>
               </li>
               <li>
                 <i className="ti-power-off"></i>
@@ -122,13 +118,14 @@ const LeftSidebarMenu = () => {
             <ul className="followers">
               <li>
                 <figure>
-                  <img src="images/resources/friend-avatar2.jpg" alt="" />
+                  <img
+                    src="/images/stars-images/sakib/sakib-profile-avatar.jpg"
+                    alt=""
+                  />
                 </figure>
                 <div className="friend-meta">
                   <h4>
-                    <a href="time-line.html" title="">
-                      Kelly Bill
-                    </a>
+                    <Link to="/time-line/saakib">SAAAKIB</Link>
                   </h4>
                   <a href="#" title="" className="underline">
                     Add Friend

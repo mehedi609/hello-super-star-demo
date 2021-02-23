@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const RightSidebarFriendList = () => {
   return (
@@ -30,24 +31,6 @@ const RightSidebarFriendList = () => {
             <h4 className="widget-title">Friends</h4>
             <div id="searchDir"></div>
             <ul id="people-list" className="friendz-list">
-              <li>
-                <figure>
-                  <img src="images/resources/friend-avatar.jpg" alt="" />
-                  <span className="status f-online"></span>
-                </figure>
-                <div className="friendz-meta">
-                  <a href="time-line.html">bucky barnes</a>
-                  <i>
-                    <a
-                      href="/cdn-cgi/l/email-protection"
-                      className="__cf_email__"
-                      data-cfemail="6017090e140512130f0c04051220070d01090c4e030f0d"
-                    >
-                      [email&#160;protected]
-                    </a>
-                  </i>
-                </div>
-              </li>
               <li>
                 <figure>
                   <img src="images/resources/friend-avatar2.jpg" alt="" />

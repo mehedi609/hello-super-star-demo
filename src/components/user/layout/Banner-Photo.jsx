@@ -5,14 +5,12 @@ import RightSidebarFriendList from '../../main-content/layout/Right-Sidebar-Frie
 import TimeLineFriends from '../../main-content/Time-Line-Friends';
 
 const BannerPhoto = (props) => {
-  const match = useRouteMatch();
-  console.log(props.pathName);
   return (
     <>
       <section>
         <div className="feature-photo">
           <figure>
-            <img src="/images/stars-images/sakib/sakib-banner-01.png" alt="" />
+            <img src="/images/resources/timeline-1.jpg" alt="" />
           </figure>
           <div className="add-btn">
             <span>1205 followers</span>
@@ -32,10 +30,7 @@ const BannerPhoto = (props) => {
               <div className="col-lg-2 col-sm-3">
                 <div className="user-avatar">
                   <figure>
-                    <img
-                      src="/images/stars-images/sakib/sakib-profile-photo.jpg"
-                      alt=""
-                    />
+                    <img src="/images/resources/user-avatar.jpg" alt="" />
                     <form className="edit-phto">
                       <i className="fa fa-camera-retro"></i>
                       <label className="fileContainer">
@@ -50,17 +45,10 @@ const BannerPhoto = (props) => {
                 <div className="timeline-info">
                   <ul>
                     <li className="admin-name">
-                      <h5>Sakib Al Hasan</h5>
+                      <h5>সাকিব্বায়ের বিরাট ফ্যান </h5>
                       {/*<span>Group Admin</span>*/}
                     </li>
-                    <li>
-                      <Link to="user/time-line">Time Line</Link>
-                      <Link to="user/timeline-photos">Photos</Link>
-                      <Link to="user/timeline-videos">Videos</Link>
-                      <Link to="user/timeline-friends">Friends</Link>
-                      <Link to="user/timeline-groups">Groups</Link>
-                      <Link to={`${match.url}/upload`}>Upload</Link>
-                    </li>
+                    <li></li>
                   </ul>
                 </div>
               </div>
