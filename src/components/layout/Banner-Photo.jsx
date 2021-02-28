@@ -1,14 +1,117 @@
-import React, { useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import React from 'react';
+import { Link, useRouteMatch } from 'react-router-dom';
 
 const BannerPhoto = () => {
-  const [name, SetName] = useState('sakkib');
+  const { url } = useRouteMatch();
+
   return (
     <>
       <section>
         <div className="feature-photo">
           <figure>
             <img src="/images/stars-images/sakib/sakib-banner-01.png" alt="" />
+
+            <div
+              className="modal fade"
+              id="modal6"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="myModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog modal-lg" role="document">
+                <div className="modal-content">
+                  <div className="modal-body mb-0 p-0">
+                    <div className="embed-responsive embed-responsive-16by9 z-depth-1">
+                      <video
+                        width="320"
+                        height="240"
+                        className="embed-responsive-item"
+                        controls
+                        autoPlay
+                      >
+                        <source
+                          src="images/resources/movie.mp4"
+                          type="video/mp4"
+                        />
+                      </video>
+                    </div>
+                  </div>
+
+                  <div className="modal-footer justify-content-center">
+                    <span className="mr-4">Spread the word!</span>
+                    <a type="button" className="btn-floating btn-sm btn-fb">
+                      <i className="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a type="button" className="btn-floating btn-sm btn-tw">
+                      <i className="fab fa-twitter"></i>
+                    </a>
+
+                    <a type="button" className="btn-floating btn-sm btn-gplus">
+                      <i className="fab fa-google-plus-g"></i>
+                    </a>
+
+                    <a type="button" className="btn-floating btn-sm btn-ins">
+                      <i className="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <button
+                      type="button"
+                      className="btn btn-outline-primary btn-rounded btn-md ml-4"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="teaser"
+              style={{
+                position: 'absolute',
+                width: '150px',
+                height: '200px',
+                top: '40px',
+                right: '20px',
+                borderRadius: '20px',
+                overflow: 'hidden',
+                border: '5px solid #D4AF37',
+                cursor: 'pointer',
+              }}
+            >
+              <a
+                style={{
+                  position: 'relative',
+                  display: 'inline-block',
+                  height: '100%',
+                }}
+              >
+                <img
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                  }}
+                  className="img-fluid z-depth-1"
+                  src="https://mdbootstrap.com/img/screens/yt/screen-video-2.jpg"
+                  alt="video"
+                  data-toggle="modal"
+                  data-target="#modal6"
+                />
+              </a>
+              <span
+                style={{
+                  fontSize: '50px',
+                  color: 'red',
+                  pointerEvents: 'none',
+                }}
+                className="play-button-icon"
+              >
+                <i className="fa fa-play" aria-hidden="true"></i>
+              </span>
+            </div>
           </figure>
           <div className="add-btn">
             <span>1205 followers</span>
@@ -49,14 +152,24 @@ const BannerPhoto = () => {
                       <h5>Sakib Al Hasan</h5>
                       {/*<span>Group Admin</span>*/}
                     </li>
-                    <li>
-                      <Link to="/time-line/saakib">Time Line</Link>
-                      <Link to="/timeline-photos/saakib">Photos</Link>
-                      <Link to="/timeline-videos/saakib">Videos</Link>
-                      <Link to="/timeline-friends/saakib">Friends</Link>
-                      <Link to="/timeline-groups/saakib">Groups</Link>
-                      <Link to="/timeline-about/saakib">About</Link>
-                    </li>
+                    {!url.split('/').includes('user') ? (
+                      <li>
+                        <Link to="/time-line/saakib">Time Line</Link>
+                        <Link to="/timeline-photos/saakib">Photos</Link>
+                        <Link to="/timeline-videos/saakib">Videos</Link>
+                        <Link to="/timeline-friends/saakib">Friends</Link>
+                        <Link to="/timeline-groups/saakib">Groups</Link>
+                        <Link to="/timeline-about/saakib">About</Link>
+                        <Link to="/shop?ss=shakib">
+                          <button
+                            type="button"
+                            className="btn btn-primary btn-lg"
+                          >
+                            Visit Shakib's Shop⭐
+                          </button>
+                        </Link>
+                      </li>
+                    ) : null}
                   </ul>
                 </div>
               </div>

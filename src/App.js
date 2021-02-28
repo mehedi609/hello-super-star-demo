@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, useRouteMatch } from 'react-router-dom';
 import './App.css';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
@@ -20,13 +20,15 @@ import UserTopBar from './components/user/layout/TopBar';
 import UserMainContentLayout from './components/user/layout/Main-Content-Layout';
 import UserBannerPhoto from './components/user/layout/Banner-Photo';
 import Input from './components/user/layout/Input';
+import Shop from './components/shop/Shop';
 
 function App() {
+  const { url } = useRouteMatch();
   const p = (
     <>
       <ResponsiveHeader />
       <TopBar />
-      <BannerPhoto />
+      {!url.split('/').includes('user') ? <BannerPhoto /> : <UserBannerPhoto />}
     </>
   );
 
@@ -41,6 +43,7 @@ function App() {
           path="/choose-category"
           component={ChooseCategory}
         />
+        <CategorySelectionRoutes exact path="/shop" component={Shop} />
         <CategorySelectionRoutes
           exact
           path="/select-category"

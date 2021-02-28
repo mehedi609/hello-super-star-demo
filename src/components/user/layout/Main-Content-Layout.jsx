@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch, useRouteMatch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import RightSidebarFriendList from '../../main-content/layout/Right-Sidebar-FriendList';
 import LeftSidebarMenu from '../../main-content/layout/Left-Sidebar-Menu';
 import TimeLine from '../../main-content/Time-Line';
@@ -13,9 +13,6 @@ import Input from './Input';
 import Achievement from './Achievement';
 
 const MainContentLayout = () => {
-  const { path } = useRouteMatch();
-  console.log(path);
-
   return (
     <>
       <section>
@@ -28,7 +25,7 @@ const MainContentLayout = () => {
                   <LeftSidebarMenu />
                   {/*Main Content*/}
                   <Switch>
-                    <Route path="user/upload">
+                    <Route path="/user/upload">
                       <Input />
                     </Route>
                     <Route path={`/user/Achievement`}>

@@ -32,9 +32,9 @@ const Header = () => {
                 <a className="nav-link" href="#">
                   About us
                 </a>
-                <a className="nav-link" href="#">
+                <Link to="/shop" className="nav-link">
                   Star Shop
-                </a>
+                </Link>
               </div>
             </div>
           </div>
