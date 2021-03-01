@@ -70,15 +70,19 @@ const BannerPhoto = () => {
             <div
               className="teaser"
               style={{
-                position: 'absolute',
+                position: 'fixed',
                 width: '150px',
                 height: '200px',
-                top: '40px',
+                top: '9rem',
                 right: '20px',
                 borderRadius: '20px',
                 overflow: 'hidden',
-                border: '5px solid #D4AF37',
+                boxShadow: ' 11px 10px 30px 0px rgba(0,0,0,0.63)',
                 cursor: 'pointer',
+                zIndex: '100',
+                outline: 'rgb(240 211 116) solid 5px',
+                border: '10px solid #0f0f0f',
+                outlineOffset: '-5px',
               }}
             >
               <a
@@ -104,7 +108,7 @@ const BannerPhoto = () => {
               <span
                 style={{
                   fontSize: '50px',
-                  color: 'red',
+                  color: 'rgb(212, 175, 55)',
                   pointerEvents: 'none',
                 }}
                 className="play-button-icon"
