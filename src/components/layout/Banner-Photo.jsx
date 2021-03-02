@@ -28,7 +28,6 @@ const BannerPhoto = () => {
                         height="240"
                         className="embed-responsive-item"
                         controls
-                        autoPlay
                       >
                         <source
                           src="images/stars-images/sakib/movie.mp4"
@@ -120,16 +119,16 @@ const BannerPhoto = () => {
           <div className="add-btn">
             <span>1205 followers</span>
             <a href="/time-line" title="" data-ripple="">
-              Add Friend
+              Follow
             </a>
           </div>
-          <form className="edit-phto">
+          {/* <form className="edit-phto">
             <i className="fa fa-camera-retro" />
             <label className="fileContainer">
               Edit Cover Photo
               <input type="file" />
             </label>
-          </form>
+          </form> */}
           <div className="container-fluid">
             <div className="row merged">
               <div className="col-lg-2 col-sm-3">
@@ -139,13 +138,13 @@ const BannerPhoto = () => {
                       src="/images/stars-images/sakib/sakib-profile-photo.jpg"
                       alt=""
                     />
-                    <form className="edit-phto">
+                    {/* <form className="edit-phto">
                       <i className="fa fa-camera-retro"></i>
                       <label className="fileContainer">
                         Edit Display Photo
                         <input type="file" />
                       </label>
-                    </form>
+                    </form> */}
                   </figure>
                 </div>
               </div>
@@ -161,17 +160,18 @@ const BannerPhoto = () => {
                         <Link to="/time-line/saakib">Time Line</Link>
                         <Link to="/timeline-photos/saakib">Photos</Link>
                         <Link to="/timeline-videos/saakib">Videos</Link>
-                        <Link to="/timeline-friends/saakib">Friends</Link>
-                        <Link to="/timeline-groups/saakib">Groups</Link>
-                        <Link to="/timeline-about/saakib">About</Link>
-                        <Link to="/shop?ss=shakib">
-                          <button
-                            type="button"
-                            className="btn btn-primary btn-lg"
-                          >
+                        {/* <Link to="/timeline-friends/saakib">Friends</Link>
+                        <Link to="/timeline-groups/saakib">Groups</Link> */}
+                        {/* <Link to="/activites/saakib">
+                          <a type="button" className="btn btn-primary btn-md">
+                            Activites with Shakib
+                          </a>
+                        </Link> */}
+                        {/* <Link to="/shop?ss=shakib">
+                          <a type="button" className="btn btn-primary btn-md">
                             Visit Shakib's Shop⭐
-                          </button>
-                        </Link>
+                          </a>
+                        </Link> */}
                       </li>
                     ) : null}
                   </ul>

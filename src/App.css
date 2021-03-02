@@ -35,6 +35,14 @@
   border-bottom: 1px solid #e5e5e5;
 }
 
+.navbar {
+  box-shadow: 0 0 0 #eee;
+}
+
+.row {
+  padding-top: 20px;
+}
+
 .box-shadow {
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
 }
@@ -48,7 +56,10 @@
 }
 
 .modal-backdrop {
-  z-index: -1;
+  z-index: 1;
+}
+.modal-dialog {
+  z-index: 2;
 }
 
 video {

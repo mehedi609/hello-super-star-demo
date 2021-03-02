@@ -39,7 +39,7 @@ const Shop = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="shop-page">
-                  <div className="shop-filter-sec d-flex justify-content-between">
+                  {/* <div className="shop-filter-sec d-flex justify-content-between">
                     <div className="shop-filter">
                       <select>
                         <option>choose your pokemon</option>
@@ -58,7 +58,7 @@ const Shop = () => {
                         <option>sort by average rating</option>
                       </select>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="row">
                     {!ss || ss === 'shakib' ? (
                       <div className="col-lg-3 col-sm-6">

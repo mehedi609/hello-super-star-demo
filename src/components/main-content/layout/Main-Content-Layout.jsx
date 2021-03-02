@@ -8,7 +8,7 @@ import TimeLinePhotos from '../Time-Line-Photos';
 import TimeLineVideos from '../Time-Line-Videos';
 import TimeLineGroups from '../Time-Line-Groups';
 import TimeLineAbout from '../Time-Line-About';
-import Input from '../../user/layout/Input';
+import Activites from '../Activites';
 
 const MainContentLayout = () => {
   return (
@@ -35,8 +35,8 @@ const MainContentLayout = () => {
                     <Route exact path="/timeline-videos/saakib">
                       <TimeLineVideos />
                     </Route>
-                    <Route exact path="/timeline-groups/saakib">
-                      <TimeLineGroups />
+                    <Route exact path="/activites/saakib">
+                      <Activites />
                     </Route>
                     <Route exact path="/timeline-about/saakib">
                       <TimeLineAbout />

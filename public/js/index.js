@@ -425,7 +425,8 @@ jQuery(document).ready(function ($) {
     var post = $('textarea').val();
     $("<p class='post'>" + post + '</p>').appendTo('section');
   });
-  $('body').on('hidden.bs.modal', '.modal', function () {
+  $('html').on('hidden.bs.modal', '.modal', function () {
     $('video').trigger('pause');
   });
+  $('.modal').appendTo('html');
 }); //document ready end
