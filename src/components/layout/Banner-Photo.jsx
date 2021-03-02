@@ -31,7 +31,7 @@ const BannerPhoto = () => {
                         autoPlay
                       >
                         <source
-                          src="images/resources/movie.mp4"
+                          src="images/stars-images/sakib/movie.mp4"
                           type="video/mp4"
                         />
                       </video>
@@ -99,7 +99,7 @@ const BannerPhoto = () => {
                     objectFit: 'cover',
                   }}
                   className="img-fluid z-depth-1"
-                  src="https://mdbootstrap.com/img/screens/yt/screen-video-2.jpg"
+                  src="images/stars-images/sakib/capture.jpg"
                   alt="video"
                   data-toggle="modal"
                   data-target="#modal6"
