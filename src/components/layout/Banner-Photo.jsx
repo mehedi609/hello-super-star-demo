@@ -162,16 +162,16 @@ const BannerPhoto = () => {
                         <Link to="/timeline-videos/saakib">Videos</Link>
                         {/* <Link to="/timeline-friends/saakib">Friends</Link>
                         <Link to="/timeline-groups/saakib">Groups</Link> */}
-                        {/* <Link to="/activites/saakib">
+                        <Link to="/activites/saakib">
                           <a type="button" className="btn btn-primary btn-md">
                             Activites with Shakib
                           </a>
-                        </Link> */}
-                        {/* <Link to="/shop?ss=shakib">
+                        </Link>
+                        <Link to="/shop?ss=shakib">
                           <a type="button" className="btn btn-primary btn-md">
                             Visit Shakib's Shop⭐
                           </a>
-                        </Link> */}
+                        </Link>
                       </li>
                     ) : null}
                   </ul>
