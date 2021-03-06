@@ -82,7 +82,7 @@ video {
 #msform {
   text-align: center;
   position: relative;
-  margin-top: 20px;
+  margin: 20px;
 }
 
 #msform fieldset {
@@ -201,6 +201,7 @@ video {
   margin-bottom: 30px;
   overflow: hidden;
   color: lightgrey;
+  padding: 0;
 }
 
 #progressbar .active {
